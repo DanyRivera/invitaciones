@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}
+.ReactModal__Content, 
+.ReactModal__Content--after-open {
+    width: 100%;
+}
+.ReactModal__Overlay ,
+.ReactModal__Overlay--after-open {
+    z-index: 9999;
+    overflow: hidden;
+}
