@@ -37,9 +37,9 @@ const Page = () => {
       <BarXV />
       <header className={styles.header}>
         <div className="text-[#fff] relative flex flex-col text-center justify-end gap-6 md:gap-8 items-center h-full pb-16 md:pb-20 px-2 md:px-0">
-          <h1 className="text-xl md:text-5xl">Mis XV Años</h1>
-          <h2 className={`${dancingScript.className} text-2xl md:text-6xl`}>Valeria González</h2>
-          <h2 className={`${inconsolata.className} text-3xl md:text-7xl`}>09 Febrero 2024</h2>
+          <h1 className="text-2xl md:text-5xl">Mis XV Años</h1>
+          <h2 className={`${dancingScript.className} text-3xl md:text-6xl`}>Valeria González</h2>
+          <h2 className={`${inconsolata.className} text-4xl md:text-7xl`}>09 Febrero 2024</h2>
         </div>
       </header>
       <main>
@@ -86,7 +86,7 @@ const Page = () => {
               <h3 className="my-5 text-xl md:text-3xl font-bold text-[#5c0099]">Grand Fiesta Americana Puebla Angelópolis</h3>
               <div className="my-3 flex flex-col items-center gap-3">
                 <p className="text-lg font-bold md:text-xl text-[#5c009993]">Direccion:</p>
-                <p className="md:text-lg md:w-1/2 text-[#5c009993]">
+                <p className="md:text-lg md:w-1/2 text-[#5c009993] mx-3 md:mx-0">
                   Osa Mayor 2507 Col, Reserva Territorial Atlixcáyotl, Centro Comercial Angelopolis, 72190 Puebla, Pue
                 </p>
               </div>
@@ -212,9 +212,9 @@ const Page = () => {
             <div className="flex flex-col gap-5 items-center">
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fxv-a%C3%B1os%2Fpadrino.webp?alt=media&token=4f619250-f1c7-4b92-a052-33688c47350c"
-                width={500}
-                height={500}
-                alt="Mesa de Regalos"
+                width={300}
+                height={300}
+                alt="Padrin@"
                 className="rounded-full w-2/3 shadow-2xl"
               />
               <div>
@@ -225,9 +225,9 @@ const Page = () => {
             <div className="flex flex-col gap-5 items-center">
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fxv-a%C3%B1os%2Fmadrina.webp?alt=media&token=9b9ac456-fc5f-43b5-9355-e457cb129738"
-                width={500}
-                height={500}
-                alt="Mesa de Regalos"
+                width={300}
+                height={300}
+                alt="Padrin@"
                 className="rounded-full w-2/3 shadow-2xl"
               />
               <div>
@@ -238,9 +238,9 @@ const Page = () => {
             <div className="flex flex-col gap-5 items-center">
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fxv-a%C3%B1os%2Fpadrino.webp?alt=media&token=4f619250-f1c7-4b92-a052-33688c47350c"
-                width={500}
-                height={500}
-                alt="Mesa de Regalos"
+                width={300}
+                height={300}
+                alt="Padrin@"
                 className="rounded-full w-2/3 shadow-2xl"
               />
               <div>
@@ -251,9 +251,9 @@ const Page = () => {
             <div className="flex flex-col gap-5 items-center">
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fxv-a%C3%B1os%2Fmadrina.webp?alt=media&token=9b9ac456-fc5f-43b5-9355-e457cb129738"
-                width={500}
-                height={500}
-                alt="Mesa de Regalos"
+                width={300}
+                height={300}
+                alt="Padrin@"
                 className="rounded-full w-2/3 shadow-2xl"
               />
               <div>

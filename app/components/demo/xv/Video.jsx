@@ -21,8 +21,8 @@ const Video = () => {
           url="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fxv-a%C3%B1os%2Fvideo.mp4?alt=media&token=00433d9e-9851-4db7-ac43-50062f13506d"
           playing={true}
           controls={true}
-          height="80%"
-          width="80%"
+          height="500%"
+          width="100%"
         />
       )}
     </div>
