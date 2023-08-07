@@ -23,8 +23,7 @@ const inconsolata = Inconsolata({
 })
 
 export const metadata = {
-  title: 'MI Invitación | VX Años Demo',
-  description: 'WebSite for create invitations',
+  title: 'XV Años Invitación'
 }
 
 const Page = () => {

@@ -1,0 +1,24 @@
+.header {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fboda-hero.webp?alt=media&token=f3b2fbde-0b26-4c20-a3df-f51e6f9693ae);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .header {
+        background-attachment: fixed;
+    }
+}
+
+.header::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
