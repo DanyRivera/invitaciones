@@ -1,5 +1,3 @@
-import React from 'react'
-
 import {Acme, Itim} from 'next/font/google'
 
 const acme = Acme({

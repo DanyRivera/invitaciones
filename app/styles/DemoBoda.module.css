@@ -22,3 +22,29 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+.timeline {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fitinerario.webp?alt=media&token=a360485a-0d65-456c-9a66-541fcbe79e6b);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .timeline {
+        height: 50vh;
+    }
+}
+
+.timeline::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+}

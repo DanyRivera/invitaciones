@@ -1,4 +1,4 @@
-import styles from "../../styles/Demoxv.module.css"
+import styles from "./styles/globals.css"
 
 const Loading = () => {
     return (
