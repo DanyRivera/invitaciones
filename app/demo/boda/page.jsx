@@ -3,6 +3,7 @@ import Styles from "../../styles/Demoboda.module.css";
 import CountDown from "@/app/components/demo/boda/CountDown";
 import Timeline from "@/app/components/demo/boda/Timeline";
 import Map from "@/app/components/demo/boda/Map";
+import Gallery from "@/app/components/demo/boda/Gallery";
 
 export const metadata = {
   title: 'Boda Invitación'
@@ -36,6 +37,10 @@ const Page = () => {
 
         <section>
           <Map />
+        </section>
+
+        <section className="my-14">
+          <Gallery />
         </section>
 
       </main>
