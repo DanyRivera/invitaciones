@@ -36,7 +36,7 @@ const CountDown = () => {
     }, 1000);
 
     return (
-        <section className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-24 text-[#000] h-full my-10'>
+        <section className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-24 text-[#000] h-full my-20'>
             <div className='flex flex-col md:gap-5 text-xl md:text-6xl items-center'>
                 <p className='font-bold'>{left.seconds}</p>
                 <p>Seconds</p>

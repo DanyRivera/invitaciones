@@ -39,19 +39,19 @@ const CountDown = () => {
     return (
         <section className={styles.bg_countdown}>
             <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-24 relative text-[#fff] h-full'>
-                <div className='flex flex-col md:gap-5 text-xl md:text-6xl items-center'>
+                <div className='flex flex-col md:gap-5 text-3xl md:text-6xl items-center'>
                     <p className='font-bold'>{left.seconds}</p>
                     <p>Seconds</p>
                 </div>
-                <div className='flex flex-col md:gap-5 text-xl md:text-6xl items-center'>
+                <div className='flex flex-col md:gap-5 text-3xl md:text-6xl items-center'>
                     <p className='font-bold'>{left.minutes}</p>
                     <p>Minutes</p>
                 </div>
-                <div className='flex flex-col md:gap-5 text-xl md:text-6xl items-center'>
+                <div className='flex flex-col md:gap-5 text-3xl md:text-6xl items-center'>
                     <p className='font-bold'>{left.hours}</p>
                     <p>Hours</p>
                 </div>
-                <div className='flex flex-col md:gap-5 text-xl md:text-6xl items-center'>
+                <div className='flex flex-col md:gap-5 text-3xl md:text-6xl items-center'>
                     <p className='font-bold'>{left.days}</p>
                     <p>Days</p>
                 </div>

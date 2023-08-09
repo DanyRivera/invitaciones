@@ -2,7 +2,7 @@ import Image from "next/image";
 import Styles from "../../styles/Demoboda.module.css";
 import CountDown from "@/app/components/demo/boda/CountDown";
 import Timeline from "@/app/components/demo/boda/Timeline";
-import Map from "@/app/components/demo/xv/Map";
+import Map from "@/app/components/demo/boda/Map";
 
 export const metadata = {
   title: 'Boda Invitación'
@@ -28,12 +28,14 @@ const Page = () => {
         <section className="my-14 text-[#cbcbcb]">
           <h2 className="text-center text-2xl md:text-5xl">Cuenta Regresiva</h2>
           <CountDown />
-        </section>
-        <section className="my-14">
-          <Map />
-        </section>
-        <section className={Styles.timeline} >
+        </section> 
+
+        <section className={`${Styles.timeline} saturate-200`} >
           <Timeline />
+        </section> 
+
+        <section>
+          <Map />
         </section>
 
       </main>

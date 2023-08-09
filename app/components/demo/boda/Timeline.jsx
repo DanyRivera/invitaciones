@@ -6,11 +6,11 @@ const Timeline = () => {
             <div className="flex flex-col gap-2 items-center justify-center text-[#cbcbcb] bg-[#fff] pb-5 rounded-2xl shadow-2xl">
                 <div className="text-7xl md:text-8xl" >
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fchurch.webp?alt=media&token=cb5231f5-1abe-4444-87b3-c92db7793b3b"
+                        src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fchurch.webp?alt=media&token=d695595f-05e0-417a-8c8b-aaa491821a86"
                         width={500}
                         height={500}
                         alt="Church"
-                        className="w-full rounded-t-2xl"
+                        className="w-full rounded-t-2xl saturate-50"
                     />
                 </div>
                 <div className="flex flex-col gap-4 justify-center items-center w-full my-2">
@@ -21,11 +21,11 @@ const Timeline = () => {
             <div className="flex flex-col gap-2 items-center justify-center text-[#cbcbcb] bg-[#fff] pb-5 rounded-2xl shadow-2xl">
                 <div className="text-7xl md:text-8xl" >
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fevent.webp?alt=media&token=7cbe41a4-f3f8-4c35-b5ce-8332b3e0d74f"
+                        src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fevent.webp?alt=media&token=9f58222f-ab42-4623-936a-f49cca1824c4"
                         width={500}
                         height={500}
-                        alt="Church"
-                        className="w-full rounded-t-2xl"
+                        alt="event"
+                        className="w-full rounded-t-2xl saturate-50"
                     />
                 </div>
                 <div className="flex flex-col gap-4 justify-center items-center w-full my-2">
@@ -36,11 +36,11 @@ const Timeline = () => {
             <div className="flex flex-col gap-2 items-center justify-center text-[#cbcbcb] bg-[#fff] pb-5 rounded-2xl shadow-2xl">
                 <div className="text-7xl md:text-8xl" >
                     <Image
-                        src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fdance.webp?alt=media&token=f3b7ab99-f14f-44d3-8d55-e7bb7bc0d57c"
+                        src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fdance.webp?alt=media&token=23d3ed6b-24a3-49ac-a527-db0d32505550"
                         width={500}
                         height={500}
-                        alt="Church"
-                        className="w-full rounded-t-2xl"
+                        alt="dance"
+                        className="w-full rounded-t-2xl saturate-50"
                     />
                 </div>
                 <div className="flex flex-col gap-4 justify-center items-center w-full my-2">
@@ -54,8 +54,8 @@ const Timeline = () => {
                         src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/demo%2Fboda%2Fformal.webp?alt=media&token=dfa11942-3fef-415b-9712-b32a651842e4"
                         width={500}
                         height={500}
-                        alt="Church"
-                        className="w-full rounded-t-2xl"
+                        alt="dress"
+                        className="w-full rounded-t-2xl saturate-50"
                     />
                 </div>
                 <div className="flex flex-col gap-4 justify-center items-center w-full my-2">
