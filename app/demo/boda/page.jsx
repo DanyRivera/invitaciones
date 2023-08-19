@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Styles from "../../styles/Demoboda.module.css";
+import Styles from "../../styles/DemoBoda.module.css";
 import CountDown from "@/app/components/demo/boda/CountDown";
 import Timeline from "@/app/components/demo/boda/Timeline";
 import Map from "@/app/components/demo/boda/Map";
