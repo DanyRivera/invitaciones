@@ -59,7 +59,7 @@ const Timeline = () => {
                     />
                 </div>
                 <div className="flex flex-col gap-4 justify-center items-center w-full my-2">
-                    <p className="text-xl md:text-3xl">Código de Vestimenta</p>
+                    <p className="text-xl md:text-2xl text-center">Código de Vestimenta</p>
                     <p className="text-lg md:text-2xl font-bold">Formal</p>
                 </div>
             </div>

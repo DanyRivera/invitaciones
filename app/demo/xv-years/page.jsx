@@ -9,6 +9,7 @@ import Map from "../../components/demo/xv/Map";
 import Weather from "../../components/demo/xv/Weather";
 import Video from "../../components/demo/xv/Video";
 import Timeline from "../../components/demo/xv/Timeline";
+import Footer from "@/app/components/Footer";
 
 //Fonts
 import { Dancing_Script, Inconsolata } from 'next/font/google'
@@ -27,9 +28,6 @@ export const metadata = {
 }
 
 const Page = () => {
-
-  const date = new Date();
-  const currentDate = date.getFullYear();
 
   return (
     <>
@@ -291,9 +289,11 @@ const Page = () => {
 
       </main>
 
-      <footer className="bg-[#5c0099] text-[#fff] text-center py-8 px-2">
-        <p>&copy; Copyright {currentDate} | Invitación Digital Creada por <span className="font-bold"><Link href="/">Invitacion</Link></span></p>
-      </footer>
+      <Footer
+        color="5c0099"
+        text="fff"
+      />
+
     </>
   )
 }

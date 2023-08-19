@@ -34,7 +34,7 @@ const Header = () => {
                 />
             </div>
             <div className="absolute top-0 flex justify-center items-center w-full h-full px-5">
-                <div className="bg-[#fff] px-10 py-5 md:py-16 md:px-20 rounded">
+                <div className="bg-[#fff] text-[#0077b6] px-10 py-5 md:py-16 md:px-20 rounded">
                     <h1 className="text-2xl md:text-6xl text-center">Te invito a mi cumpleaños!</h1>
                     <h2 className="text-xl md:text-5xl text-center mt-3 md:mt-5">Carlos González</h2>
                 </div>

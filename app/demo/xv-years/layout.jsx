@@ -10,11 +10,6 @@ const itim = Itim({
   weight: '400'
 })
 
-export const metadata = {
-    title: 'MI Invitación | Demo | XV Años',
-    description: 'WebSite for create invitations',
-}
-
 const LayoutXV = ({children}) => {
   return (
     <main className={itim.className}>{children}</main>
