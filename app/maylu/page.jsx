@@ -62,11 +62,47 @@ const Page = () => {
                 <CountDown />
             </section>
 
+            <section className="my-14 md:my-24 md:mx-20 grid gap-5 md:grid-cols-4 w-full">
+                <div className="md:col-span-2">
+                    <Image
+                        src="/img/baby.jpg"
+                        width={500}
+                        height={500}
+                        alt="Maylu"
+                        className="w-full md:rounded-md"
+                    />
+                </div>
+                <div className="md:col-span-4">
+                    <h2 className="text-center my-5 md:mb-5 text-2xl text-[#F8B3A8] font-bold">Mis Padrinos</h2>
+                    <div className="flex flex-col gap-10 md:flex-row md:justify-between">
+                        <div>
+                            <Image
+                                src="/img/padrino.jpg"
+                                width={500}
+                                height={500}
+                                alt="Padrino"
+                                className="w-2/3 mx-auto rounded-md md:w-full md:h-full"
+                            />
+                            <p className="text-center mt-5 text-2xl text-[#7d7d7d]">Padrino</p>
+                        </div>
+                        <div>
+                            <Image
+                                src="/img/madrina.jpg"
+                                width={500}
+                                height={500}
+                                alt="Madrina"
+                                className="w-2/3 mx-auto rounded-md md:w-full md:h-full"
+                            />
+                            <p className="text-center mt-5 text-2xl text-[#7d7d7d]">Madrina</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section>
-                <p>Galeria</p>
+                <p>Padrinos</p>
                 <p>Ubicación</p>
                 <p>Hospedaje</p>
-                <p>Padrinos</p>
                 <p>Itinerario</p>
                 <p>Confirmación</p>
             </section>
