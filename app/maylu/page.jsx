@@ -93,11 +93,11 @@ const Page = () => {
 
             <section className="flex justify-center mt-10 mx-5 md:-mt-28">
                 <div className="text-center text-xl  text-[#ED058D] md:text-2xl md:leading-loose">
-                    <p>" Doy gracias a Dios Nuestro Señor por darme el don de la vida.</p>
+                    <p>&quot; Doy gracias a Dios Nuestro Señor por darme el don de la vida.</p>
                     <p>A mis padres por esperarme con amor y recibirme con alegria.</p>
                     <p>A mis padrinos por guiarme en el camino de la luz.</p>
                     <p>Y a ti por acompañarme en el dia mas importante de mi vida.</p>
-                    <p>Hoy Dios me ha llamado por mi nombre "</p>
+                    <p>Hoy Dios me ha llamado por mi nombre &quot;</p>
                 </div>
             </section>
 

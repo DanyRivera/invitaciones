@@ -38,7 +38,7 @@ const Locations = () => {
                     />
                 </div>
                 <div className="flex flex-col gap-5 text-center md:mx-auto">
-                    <p className="text-xl px-2 md:text-6xl">Cabañas "El Pajar"</p>
+                    <p className="text-xl px-2 md:text-6xl">Cabañas &quot;El Pajar&quot;</p>
                     <p className="text-xl md:text-5xl font-bold">Hora: 3:00 PM</p>
                     <p className="md:text-3xl px-2 md:px-0">20 de Noviembre, 73310 Zacatlán, Pue.</p>
                     <Link
