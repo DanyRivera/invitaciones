@@ -2,8 +2,8 @@ import './styles/globals.css'
 
 export const metadata = {
   title: {
-    template: '%s | Mi Invitación',
-    default: 'Modelos | Mi Invitación'
+    template: '%s | InvitasTU',
+    default: 'Modelos | InvitasTU'
   },
   description: 'WebSite for create invitations',
 }

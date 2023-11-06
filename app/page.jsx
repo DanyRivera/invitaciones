@@ -8,7 +8,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push('https://miinvitacion.vercel.app')
+    router.push('https://invitastu.vercel.app')
   }, [])
 
   return (

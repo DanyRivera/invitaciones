@@ -1,0 +1,19 @@
+/*Gallery*/
+.image_animation {
+    animation-name: imageAnimation;
+    animation-timing-function: ease;
+    animation-duration: .7s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+@keyframes imageAnimation {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+}
