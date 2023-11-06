@@ -2,7 +2,6 @@ import Image from "next/image"
 import CountDown from "../components/maylu/CountDown";
 import Padrinos from "../components/maylu/Padrinos";
 import Gallery from "../components/maylu/Gallery";
-import Map from "../components/maylu/Map";
 import Locations from "../components/maylu/Locations";
 import Confirmation from "../components/maylu/Confirmation";
 import Footer from "../components/Footer";
@@ -91,7 +90,7 @@ const Page = () => {
                 </div>
             </header>
 
-            <section className="flex justify-center mt-10 mx-5 md:-mt-28">
+            <section className="flex justify-center mt-24 mx-5 md:-mt-28">
                 <div className="text-center text-xl  text-[#ED058D] md:text-2xl md:leading-loose">
                     <p>&quot; Doy gracias a Dios Nuestro Señor por darme el don de la vida.</p>
                     <p>A mis padres por esperarme con amor y recibirme con alegria.</p>
@@ -104,11 +103,6 @@ const Page = () => {
             {/* Papás y Padrinos */}
             <section className="my-14 md:my-20 md:mx-20 flex flex-col md:flex-row gap-5 md:gap-10 justify-center items-center text-[#00BF63]">
                 <Padrinos />
-            </section>
-
-            <section>
-                <h1 className="text-center my-10 text-2xl md:text-4xl text-[#06AFF1] font-bold tracking-wider">Ubicación</h1>
-                <Map />
             </section>
 
             {/* Maylu */}
