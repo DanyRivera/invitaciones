@@ -67,7 +67,7 @@ const Page = () => {
                     />
                     <p className="mx-5 text-center text-xl md:text-5xl">Acompañanos al Bautizo <br /> de Nuestra Hija</p>
                     <p className={`text-4xl md:text-8xl font-bold text-center mx-2 ${greatVibes.className}`}>Mayerlí Guadalupe</p>
-                    <p className={`text-xl md:text-4xl text-center mx-3 ${dm_mono.className}`}>6 de Enero del 2024</p>
+                    <p className={`text-xl md:text-4xl text-center mx-3`}>6 de Enero del 2024</p>
                 </div>
 
                 <div

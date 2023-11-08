@@ -11,15 +11,15 @@ const greatVibes = Great_Vibes({
 const Padrinos = () => {
     return (
         <>
-            <div>
-                <p className="text-center text-2xl mb-5 uppercase">Mis Padrinos:</p>
-                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Anita Reyes Silva</p>
-                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Eleazar López Juárez</p>
+            <div className="">
+                <p className="text-center text-2xl mb-5 uppercase">Mis Papás:</p>
+                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Mariela Ciriaco Sosa</p>
+                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Alfonso González Arroyo</p>
                 <Image
-                    src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fpadrinos.webp?alt=media&token=7c1135f9-fb16-4fe5-b499-8dafd8aa4cac"
+                    src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fpapas.webp?alt=media&token=9f6fb4ce-72cd-4591-92f9-f8aa2bff0b76"
                     width={500}
                     height={500}
-                    alt="Padrinos"
+                    alt="Papás"
                     className="w-full px-3 md:px-0 rounded-xl"
                 />
             </div>
@@ -32,15 +32,15 @@ const Padrinos = () => {
                     className="hidden md:block"
                 />
             </div>
-            <div className="">
-                <p className="text-center text-2xl mb-5 uppercase">Mis Papás:</p>
-                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Mariela Ciriaco Sosa</p>
-                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Alfonso González Arroyo</p>
+            <div>
+                <p className="text-center text-2xl mb-5 uppercase">Mis Padrinos:</p>
+                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Anita Reyes Silva</p>
+                <p className={`text-center text-3xl mb-5 text-[#ED058D] ${greatVibes.className}`}>Eleazar López Juárez</p>
                 <Image
-                    src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fpapas.webp?alt=media&token=9f6fb4ce-72cd-4591-92f9-f8aa2bff0b76"
+                    src="https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fpadrinos.webp?alt=media&token=7c1135f9-fb16-4fe5-b499-8dafd8aa4cac"
                     width={500}
                     height={500}
-                    alt="Papás"
+                    alt="Padrinos"
                     className="w-full px-3 md:px-0 rounded-xl"
                 />
             </div>
