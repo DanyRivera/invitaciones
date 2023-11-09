@@ -12,18 +12,12 @@ export const metadata = {
 }
 
 //Fonts
-import { DM_Mono, Great_Vibes } from 'next/font/google'
+import { Great_Vibes } from 'next/font/google'
 
 const greatVibes = Great_Vibes({
     subsets: ['latin'],
     weight: '400'
 })
-
-const dm_mono = DM_Mono({
-    subsets: ['latin'],
-    weight: '400'
-})
-
 
 
 /*
@@ -66,7 +60,7 @@ const Page = () => {
                         alt="Cruz"
                     />
                     <p className="mx-5 text-center text-xl md:text-5xl">Acompañanos al Bautizo <br /> de Nuestra Hija</p>
-                    <p className={`text-4xl md:text-8xl font-bold text-center mx-2 ${greatVibes.className}`}>Mayerlí Guadalupe</p>
+                    <p className={`text-4xl md:text-8xl font-bold text-center mx-2 ${greatVibes.className}`}>Mayerly Guadalupe</p>
                     <p className={`text-xl md:text-4xl text-center mx-3`}>6 de Enero del 2024</p>
                 </div>
 
@@ -95,7 +89,7 @@ const Page = () => {
                     <p>&quot; Doy gracias a Dios Nuestro Señor por darme el don de la vida.</p>
                     <p>A mis padres por esperarme con amor y recibirme con alegria.</p>
                     <p>A mis padrinos por guiarme en el camino de la luz.</p>
-                    <p>Y a ti por acompañarme en el dia mas importante de mi vida.</p>
+                    <p>Y a tí por acompañarme en el día más importante de mi vida.</p>
                     <p>Hoy Dios me ha llamado por mi nombre &quot;</p>
                 </div>
             </section>

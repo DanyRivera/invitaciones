@@ -21,7 +21,7 @@ const Confirmation = () => {
                         <Link
                             target="_blank"
                             rel="noreferrer"
-                            href="https://api.whatsapp.com/send?phone=2227593096"
+                            href="https://api.whatsapp.com/send?phone=7971455079"
                             className="text-[#fff] bg-[#b8307f] tracking-wide rounded-sm px-4 py-3 mt-4 md:w-full md:text-xl "
                         >Confirmar</Link>
                     </div>

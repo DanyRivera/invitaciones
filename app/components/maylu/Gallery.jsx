@@ -34,7 +34,7 @@ const Gallery = () => {
     const [activeImage, setActiveImage] = useState('');
 
     const images = [
-        'https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fmaylu-1.webp?alt=media&token=a3355214-4360-45dd-804b-5d97d70e013a',
+        'https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fmaylu-1.webp?alt=media&token=6e8bca7b-923c-403c-81a8-2b5f3b7b01c0',
         'https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fmaylu-2.webp?alt=media&token=91eefa49-57a8-408b-b545-fdb4d9479385',
         'https://firebasestorage.googleapis.com/v0/b/invitacion-8e824.appspot.com/o/maylu%2Fmaylu-3.webp?alt=media&token=323e0891-efa0-4a8c-bff0-18f4ab78a627',
     ]
@@ -57,7 +57,7 @@ const Gallery = () => {
                                 setOpen(true)
                                 setActiveImage(image)
                             }}
-                            className="rounded-md hover:md:scale-95 transition-all md:shadow-xl cursor-pointer hover:md:brightness-75 px-3 md:px-0"
+                            className="rounded-md hover:md:scale-95 transition-all md:shadow-xl cursor-pointer hover:md:brightness-75 px-3 md:px-0 md:h-full"
                             key={index}
                             src={image}
                             width={400}
